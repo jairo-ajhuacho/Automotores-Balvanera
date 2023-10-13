@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proyecto</title>
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./../css/styles.css" />
+    <link rel="icon" type="image/png" href="../img/auto.png" />
+</head>
+
+<body>
+    <!--cabecera-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary menu-fondo">
+            <div class="container-fluid">
+                <a class="navbar-brand logotipo" href="./index.html"><img src="../img/logo.png"
+                        alt="logotipo de la pagina"></a>
+                <p class="titulo-principal">Automotores Balvanera</p>
+                <button class="navbar-toggler hamburgueza" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon menu-icono"></span>
+                </button>
+                <div class="collapse navbar-collapse texto-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-ul">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./vehiculos.html">vehiculos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/ofertas.html">ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+    </header>
+    <!--aca iria el contenido central-->
+    <main>
+        <div id="carouselE" class="carousel slide" data-bs-ride="carousel">
+            <!--aca genero un carousel para poner fotos de los vehiculos a modo de muestra-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1">
+                </button>
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-current="true"
+                    aria-label="Slide 2">
+                </button>
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-current="true"
+                    aria-label="Slide 3">
+                </button>
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="3" aria-current="true"
+                    aria-label="Slide 4">
+                </button>
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="4" aria-current="true"
+                    aria-label="Slide 5">
+                </button>
+                <button type="button" data-bs-target="#carouselE" data-bs-slide-to="5" aria-current="true"
+                    aria-label="Slide 6">
+                </button>
+            </div>
+            <div class="carousel-inner carousel">
+    
+                <div class="carousel-item active">
+                    <img src="../img/Volkswagen- Gol2.jpg" class="d-block w-100" alt="Volkswagen-Gol">
+                    <div class="carousel-caption">
+                        <h5>Volkswagen-Gol</h5>
+                        <a href="#" class="btn colorbtn mt-3">Mas Información</a>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="../img/peugeot-308.jpg" class="d-block w-100"
+                        alt="Peugeot-308">
+                    <div class="carousel-caption">
+                        <h5>Peugeot-308</h5>
+                        <a href="#" class="btn colorbtn mt-3">Mas Información</a>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="../img/Fiat-Cronos.webp" class="d-block w-100" alt="fiat cronos">
+                    <div class="carousel-caption">
+                        <h5>Fiat Siena</h5>
+                        <a href="#" class="btn colorbtn mt-3">Mas Información</a>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="../img/chevrolet-onix2.webp" class="d-block w-100"
+                        alt="Chevrolet-onix">
+                    <div class="carousel-caption">
+                        <h5>Chevrolet-onix</h5>
+                        <a href="#" class="btn colorbtn mt-3">Mas Información</a>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <img src="../img/ford-focus.jpg" class="d-block w-100"
+                        alt="Ford-Focus">
+                    <div class="carousel-caption">
+                        <h5>Ford Focus</h5>
+                        <a href="#" class="btn colorbtn mt-3">Mas Información</a>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselE" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+    
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselE" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--aca pongo a la venta los vehiculos con su precio-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="servicios">
+                        <h2>Vehículos en venta</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4 main">
+            <div class="col-12 col-md-12 col-lg-3">
+                <div class="card">
+                    <img src="../img/renault-duster.jpg" class="card-img-top" alt="Renault-Duster">
+                    <div class="card-body">
+                        <h5 class="card-title">Renault-Duster</h5>
+                        <h6 class="card-title">Precio: $8.000.000</h6>
+                        <p class="card-text">Puertas: 5 <br/>Baúl: 400 a 475 lts<br/>Motor: 160 cv.<br/>Caja: 5 velicidades-manual</p>
+                        <button class="btn color-boton">Mas Información</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3">
+                <div class="card">
+                    <img src="../img/toyota-hilux.png" class="card-img-top" alt="Toyota-Hilux">
+                    <div class="card-body">
+                        <h5 class="card-title">Toyota-Hilux</h5>
+                        <h6 class="card-title">Precio: $15.000.000</h6>
+                        <p class="card-text">Puertas: 4 <br/>Baúl: 600 a 800 lts<br/>Motor: 180 cv.<br/>Caja: 6 velicidades-automatico</p>
+                        <button class="btn color-boton">Mas Información</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3">
+                <div class="card">
+                    <img src="../img/renaul-kangoo.jpg" class="card-img-top" alt="Renault-Duster">
+                    <div class="card-body">
+                        <h5 class="card-title">Renault-Kangoo</h5>
+                        <h6 class="card-title">Precio: $13.000.000</h6>
+                        <p class="card-text">Puertas: 5 <br/>Baúl: 700 a 750 lts<br/>Motor: 140 cv.<br/>Caja: 5 velicidades-automatico</p>
+                        <button class="btn color-boton">Mas Información</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3">
+                <div class="card">
+                    <img src="../img/chevrolet-onix.jpg" class="card-img-top" alt="Chevrolet-Onix">
+                    <div class="card-body">
+                        <h5 class="card-title">Chevrolet-Onix</h5>
+                        <h6 class="card-title">Precio: $7.000.000</h6>
+                        <p class="card-text">Puertas: 5 <br/>Baúl: 400 a 450 lts<br/>Motor: 130 cv.<br/>Caja: 5 velicidades-manúal</p>
+                        <button class="btn color-boton">Mas Información</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="servicios">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4 main">
+            <div class="col-12 col-md-12 col-lg-3">
+                <div class="card">
+                    <img src="../img/Fiat-Cronos.jpg" class="card-img-top" alt="Fiat Cronos">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiat Cronos</h5>
+                        <h6 class="card-title">Precio: $10.000.000</h6>
+                        <p class="card-text">Puertas: 5 <br/>Baúl: 450 a 500 lts<br/>Motor: 130 cv.<br/>Caja: 5 velicidades-automatica</p>
+                        <button class="btn color-boton">Mas Información</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3">
+                <div class="card">
+                    <img src="../img/Mercedes-Benz.jpg" class="card-img-top" alt="Mercedes Benz">
+                    <div class="card-body">
+                        <h5 class="card-title">Mercedes Benz</h5>
+                        <h6 class="card-title">Precio: $20.000.000</h6>
+                        <p class="card-text">Puertas: 5 <br/>Baúl: 700 a 800 lts<br/>Motor: 180 cv.<br/>Caja: 6 velicidades-automatica</p>
+                        <button class="btn color-boton">Mas Información</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3">
+                <div class="card">
+                    <img src="../img/Chevrolet-Spin.jpg" class="card-img-top" alt="Chevrolet-Spin">
+                    <div class="card-body">
+                        <h5 class="card-title">Chevrolet Spin</h5>
+                        <h6 class="card-title">Precio: $17.000.000</h6>
+                        <p class="card-text">Puertas: 5 <br/>Baúl: 700 a 800 lts<br/>Motor: 130 cv.<br/>Caja: 5 velicidades-manúal</p>
+                        <button class="btn color-boton">Mas Información</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-3">
+                <div class="card">
+                    <img src="../img/Chevrolet-Cruze.webp" class="card-img-top" alt="Chevrolet-Cruze">
+                    <div class="card-body">
+                        <h5 class="card-title">Chevrolet Cruze</h5>
+                        <h6 class="card-title">Precio: $16.000.000</h6>
+                        <p class="card-text">Puertas: 5 <br/>Baúl: 500 a 550 lts<br/>Motor: 160 cv.<br/>Caja: 5 velicidades-manúal</p>
+                        <button class="btn color-boton">Mas Información</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+        
+    <!--pie de pagina-->
+    <footer>
+        <br>
+        <div class="container-fluid">
+
+            <div class="row p-5 bg-dark text-white pie-de-pagina">
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="../img/logo.png" alt="logotipo de la pagina">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <p class="h5 md-3">Menú</p>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="../index.html">Inicio</a>
+                    </div>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="./vehiculos.html">Vehículos</a>
+                    </div>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="./ofertas.html">Oferta</a>
+                    </div>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="./nosotros.html">Nosotros</a>
+                    </div>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="./contacto.html">Contacto</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 w-10">
+                    <p class="h5 md-3">Nos Encontramos</p>
+                    <iframe class="iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.201137036811!2d-58.40514082505095!3d-34.59907505725152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca93d1cdc565%3A0x44d7ff38c28b85a9!2sAvenida%20C%C3%B3rdoba%20%26%20Larrea%2C%20C1117%20CABA!5e0!3m2!1ses!2sar!4v1695097799260!5m2!1ses!2sar"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Contacto</p>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="https://www.instagram.com">Instagram</a>
+                    </div>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="https://www.facebook.com">Facebook</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
