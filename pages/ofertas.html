@@ -1,46 +1,118 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <!--descripcion de la pagina-->
+    <meta name="description" content="Los mejores precios en autos los encontras en Automotores Balvanera">
+    <meta name="keywords" content="Automotores Balvanera, ofertas, descuentos, financiamiento">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>proyecto</title>
+    <title>Automotores Balvanera - ofertas</title>
+    <!--link bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./../css/styles.css" />
     <link rel="icon" type="image/png" href="../img/auto.png" />
 </head>
+
 <body>
-    <header class="header">
-        <div class="cabecera">
-            <div class="logotipo">
-                <img src="../img/logo.png" alt="logotipo de la web" />
+    <!--cabecera-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary menu-fondo">
+            <div class="container-fluid">
+                <a class="navbar-brand logotipo" href="./nosotros.html"><img src="../img/logo.png"
+                        alt="logotipo de la pagina"></a>
+                <h1 class="titulo-principal">Automotores Balvanera</h1>
+                <button class="navbar-toggler hamburgueza" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon menu-icono"></span>
+                </button>
+                <div class="collapse navbar-collapse texto-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-ul">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./vehiculos.html">vehiculos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ofertas.html">ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <h1>
-                <a href="index.html">Automotores Balvanera</a>
-            </h1>
-    
-            <nav class="nav">
-                <ul>
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./../pages/vehiculos.html">vehiculos</a>
-                    </li>
-                    <li>
-                        <a href="./../pages/ofertas.html">ofertas</a>
-                    </li>
-                    <li>
-                        <a href="./../pages/nosotros.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="./../pages/contacto.html">contacto</a>
-                    </li>
-                </ul>
-            </nav>
+        </nav>
         </div>
     </header>
-<!--contenido central-->
+
+    <!--contenido central-->
     <main>
-        <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <div class="servicios">
+                        <h2>Ofertas</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../img/volkswagen-gol-oferta.jpg" class="img-fluid rounded-start" alt="volkswagen gol oferta">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">volkswagen gol</h5>
+                        <h6 class="txt_descuento">Descuento del 15%</h6>
+                        <p class="card-text">volkswagen gol, año 2020 con garantia de 100.000km</p>
+                        <p class="card-text"><small class="text-body-secondary">Valor: $7.000.000 <br/>Retire el vehiculo con un anticipo de $3.500.000, el resto es financiado.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../img/fiat-siena.jpg" class="img-fluid rounded-start" alt="oferta fiat siena">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiat Siena</h5>
+                        <h6 class="txt_descuento">Descuento del 20%</h6>
+                        <p class="card-text">Fiat Siena, año 2020 con garantia de 100.000km</p>
+                        <p class="card-text"><small class="text-body-secondary">Valor: $5.000.000 <br/>Retire el vehiculo con un anticipo de $2.000.000, el resto es financiado.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../img/fiat-toro.jpg" class="img-fluid rounded-start" alt="oferta fiat toro">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiat Toro</h5>
+                        <h6 class="txt_descuento">Descuento del 10%</h6>
+                        <p class="card-text">Fiat Toro, año 2019 con garantia de 150.000km</p>
+                        <p class="card-text"><small class="text-body-secondary">Valor: $9.000.000 <br/>Retire el vehiculo con un anticipo de $4.000.000, el resto es financiado.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--<section>
             <h2>Ofertas</h2>
             <div class="contenedor-flex">
                 <div>
@@ -62,51 +134,60 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
     </main>
 
-<!--pie de pagina-->
-    <footer class="footer">
-        <div>
-            <img class="logotipo-pie" src="./../img/logo.png">
-        </div>
+    <!--pie de pagina-->
+    <footer>
+        <br>
+        <div class="container-fluid">
 
-        <div>
-            <h3>menú</h3>
-            <ul>
-                <li>
-                    <a href="./../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./vehiculos.html">vehiculos</a>
-                </li>
-                <li>
-                    <a href="./ofertas.html">ofertas</a>
-                </li>
-                <li>
-                    <a href="./nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./contacto.html">contacto</a>
-                </li>
-            </ul>
-        </div>
+            <div class="row p-5 bg-dark text-white pie-de-pagina">
 
-        <div>
-            <h3>Nos encontramos en</h3>
-            <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.201137036811!2d-58.40514082505095!3d-34.59907505725152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca93d1cdc565%3A0x44d7ff38c28b85a9!2sAvenida%20C%C3%B3rdoba%20%26%20Larrea%2C%20C1117%20CABA!5e0!3m2!1ses!2sar!4v1695097799260!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div>
-            <h3>Seguinos</h3>
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com">Facebook</a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/">Instagram</a>
-                </li>
-            </ul>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <img src="../img/logo.png" alt="logotipo de la pagina">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <p class="h5 md-3">Menú</p>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="../index.html">Inicio</a>
+                    </div>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="./vehiculos.html">Vehículos</a>
+                    </div>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="./ofertas.html">Oferta</a>
+                    </div>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="./nosotros.html">Nosotros</a>
+                    </div>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="./contacto.html">Contacto</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 w-10">
+                    <p class="h5 md-3">Nos Encontramos</p>
+                    <iframe class="iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.201137036811!2d-58.40514082505095!3d-34.59907505725152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca93d1cdc565%3A0x44d7ff38c28b85a9!2sAvenida%20C%C3%B3rdoba%20%26%20Larrea%2C%20C1117%20CABA!5e0!3m2!1ses!2sar!4v1695097799260!5m2!1ses!2sar"
+                        width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Contacto</p>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="https://www.instagram.com">Instagram</a>
+                    </div>
+                    <div class="md-2">
+                        <a class="text-secondary text-decoration-none" href="https://www.facebook.com">Facebook</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
