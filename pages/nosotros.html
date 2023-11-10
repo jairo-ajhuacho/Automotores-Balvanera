@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <!--descripcion de la pagina-->
     <meta name="description" content="Nosotros Automotores Balvanera, se preocupa por nuestros clientes">
-    <meta name="keywords" content="Automotores Balvanera, nosotros, conocenos, sus preocupaciones nuestra prioridad, lo que opinan nuestros clientes">
+    <meta name="keywords"
+        content="Automotores Balvanera, nosotros, conocenos, sus preocupaciones nuestra prioridad, lo que opinan nuestros clientes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Automotores Balvanera - Nosotros</title>
     <!--link bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Figtree:wght@300;600&amp;display=swap'>
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" type="text/css" href="./../css/styles.css" />
     <link rel="icon" type="image/png" href="../img/auto.png" />
 </head>
@@ -54,7 +59,7 @@
 
     <!--ACA IRIA EN CONTENDO CENTRAL-->
     <main>
-        <div class="container contenido-principal">
+        <section class="container contenido-principal">
             <div class="row align-items-center">
                 <h2 class="txt_titulo_nosotros">Nosotros</h2>
                 <div class="col-12 col-md-12 col-lg-6">
@@ -67,107 +72,125 @@
                     </p>
                 </div>
                 <div class="col-12 col-md-12 col-lg-6">
-                    <img class="img_principal" src="../img/nosotros.jpg" alt="Imagen Naturaleza" width="70%">
+                    <img class="img_principal" src="../img/nosotros.jpg" alt="nosotros entregando un auto" width="70%">
                 </div>
-            </div>
-        </div>
-
-        <!--aca iria las otras separo otra seccion-->
-        <section class=" container-fluid contenedor main-nosotros">
-            <div class="card nosotros-contenedor" style="max-width: 640px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="../img/nosotros.jpg" class="img-fluid rounded-start" alt="Imagen de nosotros">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title contenedor-titulo">Equipo Técnicos</h5>
-                            <p class="card-text contenedor-text">El cuidado de tu auto esta en las mejores manos con cada uno de los técnicos especializados con los que contamos.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card nosotros-contenedor" style="max-width: 640px;">
-                <div class="row g-0 nst">
-                    <div class="col-md-4">
-                        <img src="../img/peugeot-308.jpg" class="img-fluid rounded-start"
-                            alt="Imagen del medio ambiente">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="contenedor-titulo">Compromiso</h5>
-                            <p class="card-text contenedor-text">la empresa de Automotores Balvanera esta muy compormetida con cada uno de nuestros clientes, trabajadores, proveedores y socios de esta compañia.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card nosotros-contenedor" style="max-width: 640px;">
-                <div class="row g-0 nst">
-                    <div class="col-md-4">
-                        <img src="../img/NORMA-ISO-9001.png" class="img-fluid rounded-start"
-                            alt="Imagen del medio ambiente">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="contenedor-titulo">Calidad</h5>
-                            <p class="card-text contenedor-text">El control de calidad en cada una de nuestras areas es fundamental, es por eso mismo que contamos con la certificación de la NORMA ISO 9001.<br/>Ademas esta norma nos permite trabajar con proveedores/clientes internacionales.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <br>
             </div>
         </section>
-        <!--lo que opinan nuestros clientes-->
-        <div class="container">
+
+        <br/>
+        <!--aca nos definimos nosotros-->
+
+        <section class="articles">
+            <article>
+                <div class="article-wrapper">
+                    <figure>
+                        <img src="../img/equipo-tecnico.png" alt="equipo técnico" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Equipo Técnicos</h2>
+                        <p>
+                            El cuidado de tu auto esta en las mejores manos con cada uno de los técnicos especializados con los que contamos.
+                        </p>
+                        <a href="#" class="read-more">
+                            Ver más <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="article-wrapper">
+                    <figure>
+                        <img src="../img/Compromiso.jpg" alt="compromiso con nuestros clientes" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Compromiso</h2>
+                        <p>
+                            La empresa de Automotores Balvanera esta muy compormetida con cada uno de nuestros clientes, trabajadores, proveedores y socios de esta compañia.
+                        </p>
+                        <a href="#" class="read-more">
+                            Ver más <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="article-wrapper">
+                    <figure>
+                        <img src="../img/iso-9001.jpg" alt="Norma ISO, control de calidad" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Calidad</h2>
+                        <p>
+                            El control de calidad en cada una de nuestras areas es fundamental, es por eso mismo que contamos con la certificación de la NORMA ISO 9001.<br/>Ademas esta norma nos permite trabajar con proveedores/clientes internacionales.
+                        </p>
+                        <a href="#" class="read-more">
+                            Ver más <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!--opinión de nuestros clientes-->
+
+        <section class="container cuadro">
             <div class="row">
-                <div class="col-12 col-md-12 col-lg-12">
-                    <div class="servicios">
-                        <h2>Lo que opinan nuestros clientes</h2>
+                <div class="col-lg-4 text-center">
+                    <img class="bd-placeholder-img rounded-circle mx-auto" src="../img/cliente-1.jpg"
+                        alt="opinión del cliente Horacio" width="140" height="140" aria-label="Placeholder"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <div>
+                        <h2>ATENCIÓN</h2>
                     </div>
+                    <p><strong>Horacio:</strong><em>"me sorprendió y gusto mucho el servicio, la
+                            velocidad de atención y el vehiculo impecable."</em>
+                    </p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img class="bd-placeholder-img rounded-circle mx-auto" src="../img/cliente-2.jpg"
+                        alt="opinión de Daniel y Rosario" width="140" height="140" aria-label="Placeholder"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <div>
+                        <h2>CONFIANZA</h2>
+                    </div>
+                    <p><strong>daniel y rosario:</strong><em>"Automotores Balvanera nos generan
+                            confianza, a cualquiera que quiera cambiar su auto les recomendamos 100%."</em></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <img class="bd-placeholder-img rounded-circle mx-auto" src="../img/cliente-3.jpg"
+                        alt="opinión de Fernanda" width="140" height="140" aria-label="Placeholder"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <div>
+                        <h2>SEGURIDAD</h2>
+                    </div>
+                    <p><strong>Fernanda:</strong><em>"La atención personalizada que recibi desde
+                            un primer momento no la recibi en ningun otro lugar, ademas la entraga del vehiculo fue
+                            segura."</em></p>
                 </div>
             </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-4 g-4 main">
-            <div class="col-12 col-md-12 col-lg-3">
-                <div class="card">
-                    <img src="../img/cliente-1.jpg" class="card-img-top" alt="cliente-1">
-                    <div class="card-body">
-                        <p class="card-text"><strong>Horacio:</strong><em>"me sorprendió y gusto mucho el servicio, la
-                                velocidad,el vehiculo impecable."</em>
-                        </p>
-                        <br />
-                        <h5 class="card-title">¡Volkswagen Gol!</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-3">
-                <div class="card">
-                    <img src="../img/cliente-2.jpg" class="card-img-top" alt="cliente-2">
-                    <div class="card-body">
-                        <p class="card-text"><strong>daniel y rosario:</strong><em>"Automotores Balvanera nos generan
-                                confianza, a cualquiera que quiera cambiar su auto les recomendamos 100%."</em>
-                        </p>
-                        <br />
-                        <h5 class="card-title">¡Volkswagen Gol!</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-3">
-                <div class="card">
-                    <img src="../img/cliente-3.jpg" class="card-img-top" alt="cliente-3">
-                    <div class="card-body">
-                        <p class="card-text"><strong>Fernanda:</strong><em>"La atencion personalizada que recibi desde
-                                un primer momento, no la recibi en ningun otro lugar"</em>
-                        </p>
-                        <br />
-                        <h5 class="card-title">¡Volkswagen Gol!</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
+
 
     <!--pie de pagina-->
     <footer>
@@ -199,6 +222,7 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 w-10">
                     <p class="h5 md-3">Nos Encontramos</p>
+                    <p>Av. Cordoba y Larrea</p>
                     <iframe class="iframe"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.201137036811!2d-58.40514082505095!3d-34.59907505725152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca93d1cdc565%3A0x44d7ff38c28b85a9!2sAvenida%20C%C3%B3rdoba%20%26%20Larrea%2C%20C1117%20CABA!5e0!3m2!1ses!2sar!4v1695097799260!5m2!1ses!2sar"
                         width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"

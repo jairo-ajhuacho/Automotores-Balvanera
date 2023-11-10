@@ -1,0 +1,33 @@
+/*estilo a main-contacto*/
+.foto_contactanos {
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgb(63, 46, 46);
+}
+
+.txt_nombre {
+    font-family: sans-serif, Arial, Helvetica;
+    color: black;
+}
+
+.btn_nombre {
+    background-color: #e0dada;
+    border-bottom: rgb(138, 146, 123);
+    color: black;
+    box-shadow: 3px 3px 4px rgb(63, 46, 46);
+    border: 1px solid black;
+}
+
+.btn_enviar {
+    background-color: #68778a;
+    border-bottom: black;
+    color: white;
+    box-shadow: 3px 3px 4px rgb(63, 46, 46);
+    border: 1px solid black;
+}
+
+.consulta {
+    text-align: center;
+    font-family: sans-serif, Arial, Helvetica;
+    color: black;
+}

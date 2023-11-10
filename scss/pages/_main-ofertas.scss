@@ -1,0 +1,108 @@
+.servicios{
+    text-align: center;
+    font-family: sans-serif Arial, Helvetica;
+}
+
+.color-boton {
+    background-color: rgb(138, 146, 123);
+    border-color: rgb(138, 146, 123);
+    box-shadow: 3px 3px 4px rgb(63, 46, 46);
+    border: 1px solid black;
+}
+
+.menu-fondo {
+    background-color: rgb(224, 218, 218) !important;
+}
+
+/*ESTILOS A MAIN-OFERTAS*/
+.sectores-cdt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.card-sectores {
+    max-width: 960px;
+    border-radius: 32px;
+    box-shadow: 24px 24px 80px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px 28px 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 780px) {
+    .card-sectores {
+        flex-direction: row;
+        align-items: center;
+        margin: 40px;
+        padding: 32px;
+    }
+}
+
+@media (min-width: 780px) {
+    .card-sectores {
+        flex-direction: row;
+        align-items: center;
+        margin: 40px;
+        padding: 32px;
+    }
+}
+
+.card__image {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 32px;
+    object-fit: cover;
+    margin-bottom: 18px;
+}
+
+@media (min-width: 780px) {
+    .card__image {
+        width: 45%;
+        max-height: none;
+        min-height: 400px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 780px) {
+    .card__content {
+        width: 55%;
+        padding-left: 40px;
+    }
+}
+
+.card__date {
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 25px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #79AC78;
+    margin-bottom: 6px;
+}
+
+@media (min-width: 780px) {
+    .card__date {
+        margin-bottom: 8px;
+    }
+}
+
+.card__title {
+    font-family: 'Vollkorn', serif;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #222022;
+    box-decoration-break: clone;
+    background-image: linear-gradient(90deg, #FFEF7E, #B7F9E9);
+    background-size: 100% 42%;
+    background-repeat: no-repeat;
+    background-position: 0 85%;
+    padding: 0 4px;
+    margin-left: -4px;
+}
